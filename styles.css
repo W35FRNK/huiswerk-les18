@@ -1,0 +1,155 @@
+body{
+  background-color: white;
+  font-family: Roboto, Arial;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.header {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+#header-h1{
+  position: absolute;
+  color: white;
+  font-size: 6vw;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner {
+  height: 250px;
+  width: 100%;
+  opacity: 90%;
+}
+
+
+
+ul {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+
+li {
+  font-size: 1.5vw;
+  text-align: left;
+  
+  
+}
+
+.col-2 {
+  background-color: AliceBlue;
+  width: 20%;
+  min-height: 800px;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  
+  
+
+
+  
+}
+
+h1{
+  font-size: 3vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.col-4 {
+  background-color: Azure;
+  width: 40%;
+  min-height: 800px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.col-5 {
+  background-color: Azure;
+  width: 40%;
+  min-height: 800px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-activity-1 {
+  max-width: 70%;
+  height: auto;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
+
+.image-activity-2 {
+  max-width: 60%;
+  height: auto;
+  float: right;
+  margin: 5px 5px 5px 5px;
+}
+
+.footer {
+  background-color: GhostWhite;
+  height: auto;
+}
+
+.footer-text {
+  font-size: 1.5vw;
+}
+
+
+
+.text-activity {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5vw;
+
+
+}
+}
